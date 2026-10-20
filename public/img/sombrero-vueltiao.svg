@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+  <title id="title">Sombrero vueltiao</title><desc id="desc">Sombrero vueltiao tejido en caña flecha con franjas negras y marfil.</desc>
+  <defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#f3eddf"/><stop offset="1" stop-color="#e5dac5"/></linearGradient><linearGradient id="straw" x2="0" y2="1"><stop stop-color="#f4e6c7"/><stop offset="1" stop-color="#ceb98e"/></linearGradient><filter id="s"><feGaussianBlur stdDeviation="13"/></filter><clipPath id="crown"><path d="M193 275q8-131 107-153 99 22 107 153z"/></clipPath></defs>
+  <path fill="url(#bg)" d="M0 0h600v600H0z"/><ellipse cx="300" cy="432" rx="188" ry="24" fill="#4f493c" opacity=".23" filter="url(#s)"/>
+  <path d="M192 276q8-132 108-154 100 22 108 154z" fill="url(#straw)" stroke="#9b8964" stroke-width="4"/><g clip-path="url(#crown)" fill="none" stroke="#302d27" stroke-width="13"><path d="M191 224h218m-220 28h222m-222 28h222m-215-58 44-105m-15 163 65-156m21 160 66-158m-15 155 53-128"/></g>
+  <path d="M108 286q192-46 384 0l-24 79q-168 42-336 0z" fill="url(#straw)" stroke="#98845d" stroke-width="4"/><path d="M114 302q186-45 372 0m-379 23q193-42 386 0m-388 22q195-36 390 0" fill="none" stroke="#292a27" stroke-width="13"/><path d="M139 373q161 37 322 0" fill="none" stroke="#e8d8b5" stroke-width="4"/><ellipse cx="300" cy="284" rx="109" ry="19" fill="#c4ae7e" opacity=".7"/>
+</svg>

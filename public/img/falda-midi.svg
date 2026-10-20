@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+  <title id="title">Falda midi plisada</title><desc id="desc">Falda midi azul petróleo de cintura alta con pliegues definidos.</desc>
+  <defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#e4eeee"/><stop offset="1" stop-color="#cbdcda"/></linearGradient><linearGradient id="skirt" x2="1" y2="0"><stop stop-color="#315f65"/><stop offset=".25" stop-color="#42777b"/><stop offset=".5" stop-color="#2e6268"/><stop offset=".75" stop-color="#4a7e80"/><stop offset="1" stop-color="#315d62"/></linearGradient><filter id="s"><feGaussianBlur stdDeviation="13"/></filter></defs>
+  <path fill="url(#bg)" d="M0 0h600v600H0z"/><ellipse cx="300" cy="494" rx="166" ry="22" fill="#315252" opacity=".22" filter="url(#s)"/>
+  <path d="M201 131h198l26 65 65 250q-190 49-378 0l65-250z" fill="url(#skirt)" stroke="#244e53" stroke-width="4" stroke-linejoin="round"/><path d="M201 131h198l26 65 65 250q-190 49-378 0l65-250z" fill="none" stroke="#91b2aa" stroke-width="2" opacity=".7"/>
+  <path d="M201 131h198l14 55q-111 35-226 0z" fill="#315f65" stroke="#244e53" stroke-width="4"/><path d="M219 140v42m36-45v46m36-48v50m36-50v50m36-48v46m36-43v42" stroke="#a5c2b7" stroke-width="3" opacity=".75"/><path d="m210 192-50 226m76-219-21 233m75-232-4 239m73-239 13 234m40-233 43 217" stroke="#9ab8af" stroke-width="4" opacity=".45"/><path d="M120 445q180 38 360 0" fill="none" stroke="#d0dfd4" stroke-width="3"/>
+</svg>

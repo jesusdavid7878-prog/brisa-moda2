@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+  <title id="title">Camiseta de algodón</title><desc id="desc">Camiseta color marfil de algodón peinado, cuello redondo.</desc>
+  <defs>
+    <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#f2ede4"/><stop offset="1" stop-color="#e4ddd1"/></linearGradient>
+    <linearGradient id="fabric" x2="1" y2="1"><stop stop-color="#fffdf6"/><stop offset=".55" stop-color="#f5f0e5"/><stop offset="1" stop-color="#e8e0d2"/></linearGradient>
+    <filter id="shadow" x="-.3" y="-.2" width="1.6" height="1.6"><feGaussianBlur stdDeviation="13"/></filter>
+    <pattern id="knit" width="9" height="9" patternUnits="userSpaceOnUse"><path d="M1 0v9M5 0v9" stroke="#c9c0b0" stroke-opacity=".17"/></pattern>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h600v600H0z"/><ellipse cx="302" cy="490" rx="165" ry="23" fill="#4d493f" opacity=".18" filter="url(#shadow)"/>
+  <path d="m205 151 57-27h76l57 27 95 74-49 68-49-32v205H208V261l-49 32-49-68z" fill="url(#fabric)" stroke="#d6cdbc" stroke-width="3" stroke-linejoin="round"/>
+  <path d="m205 151 57-27h76l57 27 95 74-49 68-49-32v205H208V261l-49 32-49-68z" fill="url(#knit)"/>
+  <path d="M263 124q7 44 37 44t37-44" fill="none" stroke="#d0c7b8" stroke-width="10"/><path d="M266 126q7 34 34 34t34-34" fill="none" stroke="#fffdf6" stroke-width="4"/>
+  <path d="M208 457h184M208 264l-47 31m279-31 47 31" fill="none" stroke="#c8bead" stroke-width="2" opacity=".7"/>
+  <path d="M300 184v230" stroke="#d9d0c1" stroke-width="2" stroke-dasharray="2 7" opacity=".65"/>
+</svg>

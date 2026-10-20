@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+  <title id="title">Bermuda de dril</title><desc id="desc">Bermuda de dril verde oliva con bolsillos laterales y costuras visibles.</desc>
+  <defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#e7eee7"/><stop offset="1" stop-color="#d5dfd3"/></linearGradient><linearGradient id="cloth" x2="1" y2="1"><stop stop-color="#77866a"/><stop offset=".48" stop-color="#68785c"/><stop offset="1" stop-color="#4e614a"/></linearGradient><filter id="s"><feGaussianBlur stdDeviation="12"/></filter><pattern id="twill" width="12" height="12" patternUnits="userSpaceOnUse"><path d="m-3 12 12-12m0 15 12-12" stroke="#d4d7c4" stroke-opacity=".12" stroke-width="2"/></pattern></defs>
+  <path fill="url(#bg)" d="M0 0h600v600H0z"/><ellipse cx="302" cy="492" rx="148" ry="22" fill="#334338" opacity=".2" filter="url(#s)"/>
+  <path d="M178 132h244l-11 94-20 228H302l-11-169-14 169H164l12-228z" fill="url(#cloth)" stroke="#465641" stroke-width="4" stroke-linejoin="round"/><path d="M178 132h244l-11 94-20 228H302l-11-169-14 169H164l12-228z" fill="url(#twill)"/>
+  <path d="M178 132h244l-4 46H174z" fill="#879276" stroke="#465641" stroke-width="4"/><path d="M190 151h220m-109-18v46" fill="none" stroke="#c3c7ab" stroke-width="2" stroke-dasharray="4 5"/>
+  <path d="m181 196 77 20-19 78-74-18m251-80-77 20 19 78 74-18" fill="#607153" stroke="#465641" stroke-width="3"/><path d="m177 273 61 16m246-16-61 16M166 438h102m34 0h86" fill="none" stroke="#c7c9ae" stroke-width="3" stroke-dasharray="5 6"/><path d="M291 285h17" stroke="#d7c8a1" stroke-width="4"/>
+</svg>
