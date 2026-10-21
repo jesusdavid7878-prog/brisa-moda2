@@ -8,6 +8,7 @@ import Carrito from './components/Carrito.jsx'
 import FormularioPedido from './components/FormularioPedido.jsx'
 import Aviso from './components/Aviso.jsx'
 import PiePagina from './components/PiePagina.jsx'
+import { rutaPublica } from './utils/rutaPublica.js'
 
 // Lee el carrito guardado en el navegador (o una lista vacía si no hay nada)
 function carritoGuardado() {
@@ -36,7 +37,7 @@ function App() {
 
   // Cargar los productos una sola vez, cuando se abre la página
   useEffect(() => {
-    fetch('/productos.json')
+    fetch(rutaPublica('/productos.json'))
       .then((respuesta) => respuesta.json())
       .then((datos) => {
         setProductos(datos)

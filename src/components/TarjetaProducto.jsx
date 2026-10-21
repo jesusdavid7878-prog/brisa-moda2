@@ -1,4 +1,5 @@
 import { pesos } from '../utils/formato.js'
+import { rutaPublica } from '../utils/rutaPublica.js'
 
 function TarjetaProducto({ producto, onVerDetalle }) {
   return (
@@ -7,7 +8,7 @@ function TarjetaProducto({ producto, onVerDetalle }) {
         transition hover:-translate-y-1 hover:shadow-lg"
     >
       <div className="relative">
-        <img src={producto.imagen} alt={producto.nombre} className="aspect-square w-full" />
+        <img src={rutaPublica(producto.imagen)} alt={producto.nombre} className="aspect-square w-full" />
         {producto.nuevo && (
           <span
             className="absolute top-3 left-3 rounded-full bg-mar-700 px-3 py-1 text-xs

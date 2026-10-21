@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { pesos } from '../utils/formato.js'
+import { rutaPublica } from '../utils/rutaPublica.js'
 
 function DetalleProducto({ producto, onCerrar, onAgregar }) {
   // Talla elegida por el cliente ('' = todavía no ha elegido)
@@ -15,7 +16,7 @@ function DetalleProducto({ producto, onCerrar, onAgregar }) {
           md:grid-cols-2"
         onClick={(e) => e.stopPropagation()}
       >
-        <img src={producto.imagen} alt={producto.nombre} className="aspect-square w-full" />
+        <img src={rutaPublica(producto.imagen)} alt={producto.nombre} className="aspect-square w-full" />
         <div className="flex flex-col gap-4 p-6">
           <div className="flex items-start justify-between gap-4">
             <h3 className="font-titulo text-2xl font-bold text-mar-900">{producto.nombre}</h3>

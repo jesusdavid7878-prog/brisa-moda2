@@ -1,3 +1,5 @@
+import { rutaPublica } from '../utils/rutaPublica.js'
+
 function Portada() {
   return (
     <section className="bg-linear-to-br from-marca-100 via-marca-50 to-white">
@@ -22,7 +24,7 @@ function Portada() {
           </a>
         </div>
         <img
-          src="/img/portada.jpg"
+          src={rutaPublica('/img/portada.jpg')}
           alt="Prendas de la colección Caribe"
           className="mx-auto w-full max-w-sm"
         />

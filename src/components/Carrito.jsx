@@ -1,3 +1,4 @@
+import { rutaPublica } from '../utils/rutaPublica.js'
 import { pesos } from '../utils/formato.js'
 
 function Carrito({ items, onCerrar, onCambiarCantidad, onQuitar, onPedir }) {
@@ -26,7 +27,7 @@ function Carrito({ items, onCerrar, onCambiarCantidad, onQuitar, onPedir }) {
           <ul className="flex-1 divide-y divide-stone-200 overflow-y-auto px-4">
             {items.map((item) => (
               <li key={`${item.id}-${item.talla}`} className="flex gap-3 py-4">
-                <img src={item.imagen} alt="" className="h-20 w-20 rounded-lg" />
+                <img src={rutaPublica(item.imagen)} alt="" className="h-20 w-20 rounded-lg" />
                 <div className="flex flex-1 flex-col">
                   <p className="font-semibold">{item.nombre}</p>
                   <p className="text-sm text-stone-500">
